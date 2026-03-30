@@ -1,4 +1,4 @@
-import './globals.css' // <-- ESTA LINHA É A CHAVE PARA A PARTE VISUAL
+import './globals.css' // <--- ISTO TEM DE ESTAR AQUI
 
 export const metadata = {
   title: 'Gata na Praia 2026',
@@ -8,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt">
-      <body>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   )
 }
